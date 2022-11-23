@@ -22,6 +22,8 @@
 		0BD2DD22292DA6C60079157A /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD21292DA6C60079157A /* UIColor+Today.swift */; };
 		0BD2DD24292DB1350079157A /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD23292DB1350079157A /* ReminderDoneButton.swift */; };
 		0BD2DD26292DB4AA0079157A /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD25292DB4AA0079157A /* ReminderListViewController+Actions.swift */; };
+		0BD2DD28292DC9630079157A /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD27292DC9630079157A /* ReminderViewController.swift */; };
+		0BD2DD2B292DCBB60079157A /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2DD2A292DCBB60079157A /* ReminderViewController+Row.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		0BD2DD21292DA6C60079157A /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		0BD2DD23292DB1350079157A /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		0BD2DD25292DB4AA0079157A /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		0BD2DD27292DC9630079157A /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		0BD2DD2A292DCBB60079157A /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,13 +117,13 @@
 			children = (
 				0BD2DD19292C6ED70079157A /* Models */,
 				0BD2DCE9292C6D1F0079157A /* AppDelegate.swift */,
+				0BD2DD29292DCB8D0079157A /* ReminderViewController */,
 				0BD2DCEB292C6D1F0079157A /* SceneDelegate.swift */,
 				0BD2DD1E292DA2A90079157A /* ListViewController */,
 				0BD2DCEF292C6D1F0079157A /* Main.storyboard */,
 				0BD2DCF2292C6D200079157A /* Assets.xcassets */,
 				0BD2DCF4292C6D200079157A /* LaunchScreen.storyboard */,
 				0BD2DCF7292C6D200079157A /* Info.plist */,
-				0BD2DD23292DB1350079157A /* ReminderDoneButton.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -154,11 +158,21 @@
 		0BD2DD1E292DA2A90079157A /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0BD2DD23292DB1350079157A /* ReminderDoneButton.swift */,
 				0BD2DCED292C6D1F0079157A /* ReminderListViewController.swift */,
 				0BD2DD1F292DA2F80079157A /* ReminderListViewController+DataSource.swift */,
 				0BD2DD25292DB4AA0079157A /* ReminderListViewController+Actions.swift */,
 			);
 			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		0BD2DD29292DCB8D0079157A /* ReminderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BD2DD27292DC9630079157A /* ReminderViewController.swift */,
+				0BD2DD2A292DCBB60079157A /* ReminderViewController+Row.swift */,
+			);
+			path = ReminderViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,8 +308,10 @@
 			files = (
 				0BD2DD22292DA6C60079157A /* UIColor+Today.swift in Sources */,
 				0BD2DD26292DB4AA0079157A /* ReminderListViewController+Actions.swift in Sources */,
+				0BD2DD28292DC9630079157A /* ReminderViewController.swift in Sources */,
 				0BD2DCEE292C6D1F0079157A /* ReminderListViewController.swift in Sources */,
 				0BD2DD1D292DA0560079157A /* Date+Today.swift in Sources */,
+				0BD2DD2B292DCBB60079157A /* ReminderViewController+Row.swift in Sources */,
 				0BD2DD24292DB1350079157A /* ReminderDoneButton.swift in Sources */,
 				0BD2DCEA292C6D1F0079157A /* AppDelegate.swift in Sources */,
 				0BD2DCEC292C6D1F0079157A /* SceneDelegate.swift in Sources */,
